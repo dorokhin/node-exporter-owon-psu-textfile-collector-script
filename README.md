@@ -18,7 +18,7 @@ psu_measured_voltage{device="22472129"} 12.033
 psu_measured_current{device="22472129"} 1.129
 # HELP psu_device_info Device information
 # TYPE psu_device_info gauge
-psu_device_info{firmware_version="V4.1.0",manufacturer="OWON",model="SPE3051",serial_num="22272112"} 1.0
+psu_device_info{firmware_version="V4.1.0",manufacturer="OWON",model="SPE3051",serial_num="22472129"} 1.0
 ```
 
 For more information see: https://github.com/prometheus/node_exporter#textfile-collector
