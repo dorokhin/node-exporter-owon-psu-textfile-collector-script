@@ -23,7 +23,7 @@ metrics = {
     ),
     'measured_current': Gauge(
         'measured_current',
-        'Measured Current (Amper)',
+        'Measured Current (Ampere)',
         ['device'], namespace=namespace, registry=registry,
     ),
     'device_info': Info(
